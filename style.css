@@ -139,9 +139,45 @@ tr {
   margin-left: 5px;
 }
 
+/* Media Queries for Responsive Design */
+/* Mobile First Approach */
+@media only screen and (max-width: 768px) {
 
+  
+  #homepage {
+    flex-direction: column; 
+  }
 
+  #sidepanel {
+    margin-left: 0; 
+  }
 
+  #menu,
+  #ytlogo {
+    height: 20px; 
+  }
 
+  .tbtext {
+    width: auto; 
+  }
 
+  #search {
+    margin-left: 0; 
+    width: 100%;
+  }
 
+  .lstqdiv,
+  .lstdiv {
+    margin-left: 0; 
+  }
+
+  .navbtn {
+    margin-left: 5px;
+    padding-left: 5px; 
+    padding-right: 5px; 
+  }
+
+  .thumbnail {
+    padding-left: 10px;
+  }
+}
